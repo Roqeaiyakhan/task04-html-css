@@ -25,3 +25,41 @@ nav a{
     color:#322d2d ;
     text-decoration: none;
 }
+
+
+/* Home */
+.Home{
+    display: flex;
+justify-content: space-evenly;
+margin-right: 50px;
+
+}
+.Home div{
+padding-top: 140px;
+}
+.Home img{
+    margin-left: 20px;
+    width: 500px;
+    margin-top: 20px;
+}
+.Home h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.Home input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* Section */
+section{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+
+section p {
+    padding-top: 30px;
+}
