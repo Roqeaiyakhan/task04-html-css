@@ -226,8 +226,8 @@ footer img{
 }
 
 .card-group button {
-    background: #373b3e39;
-    color: #fff;
+    background: #37383939;
+    color: #6f5e5e;
     width: 12vw;
     height: 7vh;
     display: flex;
@@ -372,4 +372,44 @@ text-align: center;
 .copyright p{
     color: #8f8e8e;
     font-size: medium;
+}
+/* for PC */
+@media(max-width:900px){
+    .Home img{
+        margin-left: 20px;
+        width: 350px;
+        margin-top: 20px;
+    }
+.Home h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.books-group{
+    display: grid;
+    justify-content: space-evenly;
+}
+.Books{
+    margin-bottom: 10px;
+}
+.Books button{
+    width: 15vw;
+    height: 7vh;
+}
+.card-group{
+    display: grid;
+}
+.card-group .card-title{
+    font-size: 1.5vw;
+    padding-top: 10px;
+}
+footer p{
+    font-size: 1vw;
+}
+footer div p{
+    font-size: 1vw;
+}
+footer img{
+    width: 40%;
+}
+
 }
